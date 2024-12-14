@@ -37,6 +37,24 @@ UASPBF-TokoBuku
  Returns the Asp log object.
  </summary>
 </member>
+<member name="F:UASPBF_TokoBuku.Admin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Admin._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:UASPBF_TokoBuku.Login._form1">
 <summary>
 form1 control.
@@ -109,6 +127,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:UASPBF_TokoBuku.Login._ErrorMes">
+<summary>
+ErrorMes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:UASPBF_TokoBuku.Login._LkRegister">
 <summary>
 LkRegister control.
@@ -166,6 +193,24 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:UASPBF_TokoBuku.Login._BtnRegister">
 <summary>
 BtnRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Login._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Login._LkLogin">
+<summary>
+LkLogin control.
 </summary>
 <remarks>
 Auto-generated field.
