@@ -86,6 +86,15 @@ Partial Public Class Login
     Protected WithEvents BtnLogin As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''ErrorMes control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ErrorMes As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''LkRegister control.
     '''</summary>
     '''<remarks>
@@ -147,6 +156,15 @@ Partial Public Class Login
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents BtnRegister As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Label3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''LkLogin control.

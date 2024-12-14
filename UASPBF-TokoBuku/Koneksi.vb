@@ -7,7 +7,7 @@ Module Koneksi
     Public cmd As New MySqlCommand
     Public dr As MySqlDataReader
 
-    Public Sub koneksi()
+    Public Sub connect()
         cn.Close()
         cn = New MySqlConnection("Data Source=localhost;Database=tokobuku;User ID=root;Password=;")
         cn.Open()
