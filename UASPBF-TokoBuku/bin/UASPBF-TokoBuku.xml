@@ -46,9 +46,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:UASPBF_TokoBuku.Admin._ContentPlaceHolder1">
+<member name="F:UASPBF_TokoBuku.Admin._MainContent">
 <summary>
-ContentPlaceHolder1 control.
+MainContent control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -211,6 +211,87 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:UASPBF_TokoBuku.Login._LkLogin">
 <summary>
 LkLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._TbNamaBuku">
+<summary>
+TbNamaBuku control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._TbKategori">
+<summary>
+TbKategori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._TbPenulis">
+<summary>
+TbPenulis control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._TbHarga">
+<summary>
+TbHarga control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._TbStok">
+<summary>
+TbStok control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._btnAddBuku">
+<summary>
+btnAddBuku control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._btnUpdateBuku">
+<summary>
+btnUpdateBuku control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._hfIdBuku">
+<summary>
+hfIdBuku control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Products._gvInventoryBuku">
+<summary>
+gvInventoryBuku control.
 </summary>
 <remarks>
 Auto-generated field.

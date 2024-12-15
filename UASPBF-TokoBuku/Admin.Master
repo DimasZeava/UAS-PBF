@@ -1,17 +1,28 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Admin.master.vb" Inherits="UASPBF_TokoBuku.Admin" %>
 
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    <title>Admin Dashboard</title>
+    <link href="Sidebar.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div class="sidebar">
+            <div class="logo">
+                <h2>Admin Panel</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="Admin.aspx">Dashboard</a></li>
+                <li><a href="Users.aspx">Users</a></li>
+                <li><a href="Orders.aspx">Orders</a></li>
+                <li><a href="Products.aspx">Inventory Buku</a></li>
+                <li><a href="Login.aspx">Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>
