@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Admin
+Partial Public Class Pengguna
 
     '''<summary>
     '''form1 control.

@@ -24,6 +24,10 @@ Public Class Login
             If dr.HasRows Then
                 While dr.Read
                     Dim tipeAdmin As String = dr("tipe_admin").ToString()
+                    Dim idAdmin As String = dr("id_admin").ToString()
+
+                    Session("id_admin") = idAdmin
+
                     Select Case tipeAdmin
                         Case "pengguna"
                             Response.Redirect("pengguna.aspx")

@@ -1,7 +1,10 @@
 ﻿body {
-    margin: 0;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
 }
+
 
 .sidebar {
     width: 250px;
@@ -49,31 +52,70 @@
     padding: 20px;
 }
 
-.product-form {
-    margin-bottom: 20px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+.product-form, .pelanggan-form, .transaksi-form, .keranjang {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-    .product-form input, .product-form button {
+    .product-form input,
+    .pelanggan-form input,
+    .transaksi-form input,
+    .transaksi-form select,
+    .footer input {
+        width: 98%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .product-form button, .pelanggan-form button, .pelanggan-form .dropdown-pelanggan {
         margin: 5px 0;
         padding: 10px;
         width: 100%;
         box-sizing: border-box;
     }
 
-    .product-form button {
+    .product-form button, .pelanggan-form button {
         background-color: #007bff;
         color: #fff;
         border: none;
         cursor: pointer;
     }
 
-        .product-form button:hover {
+        .product-form button:hover, .pelanggan-form button:hover {
             background-color: #0056b3;
         }
+
+.transaksi-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.transaksi-form, .keranjang {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+
+.dropdown-pelanggan {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
 
 table {
     width: 100%;
@@ -101,4 +143,78 @@ a {
 
     a:hover {
         text-decoration: underline;
+    }
+
+asp:GridView {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+    asp:GridView th, asp:GridView td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    asp:GridView th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    asp:GridView tr:hover {
+        background-color: #f1f1f1;
+    }
+
+asp:LinkButton {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    asp:LinkButton:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+asp:GridView .highlight {
+    background-color: #e9f7e9;
+}
+
+.total-pembayaran {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.fixed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+}
+
+.btnBayar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+    .btnBayar:hover {
+        background-color: #0056b3;
     }

@@ -145,9 +145,11 @@
   <ItemGroup>
     <Content Include="admin.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="pengguna.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="Sidebar.css" />
     <Content Include="Styles.css" />
+    <Content Include="Transaksi.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -192,11 +194,32 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="pengguna.aspx.designer.vb">
+      <DependentUpon>pengguna.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pengguna.aspx.vb">
+      <DependentUpon>pengguna.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pengguna.Master.designer.vb">
+      <DependentUpon>Pengguna.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pengguna.Master.vb">
+      <DependentUpon>Pengguna.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Products.aspx.designer.vb">
       <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Products.aspx.vb">
       <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Transaksi.aspx.designer.vb">
+      <DependentUpon>Transaksi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi.aspx.vb">
+      <DependentUpon>Transaksi.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
@@ -220,6 +243,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <Content Include="Pengguna.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

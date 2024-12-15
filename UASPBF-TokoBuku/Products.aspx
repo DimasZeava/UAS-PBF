@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="Admin.Master" CodeBehind="Products.aspx.vb" Inherits="UASPBF_TokoBuku.Products" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>Manage Products</h2>
+<asp:Content ID="Inventory" ContentPlaceHolderID="MainContent" runat="server">
+    <h2>Manage Inventory</h2>
     <div class="product-form">
         <asp:TextBox ID="TbNamaBuku" runat="server" Placeholder="Nama Buku"></asp:TextBox>
         <asp:TextBox ID="TbKategori" runat="server" Placeholder="Nama Kategori"></asp:TextBox>

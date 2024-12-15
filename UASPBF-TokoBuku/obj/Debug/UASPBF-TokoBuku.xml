@@ -46,15 +46,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<<<<<<< HEAD
 <member name="F:UASPBF_TokoBuku.Admin._MainContent">
 <summary>
 MainContent control.
-=======
-<member name="F:UASPBF_TokoBuku.Admin._ContentPlaceHolder1">
-<summary>
-ContentPlaceHolder1 control.
->>>>>>> 28bc143fe84c59c07cbb4c3241c5faad893d2d77
 </summary>
 <remarks>
 Auto-generated field.
@@ -223,7 +217,24 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<<<<<<< HEAD
+<member name="F:UASPBF_TokoBuku.Pengguna._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Pengguna._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:UASPBF_TokoBuku.Products._TbNamaBuku">
 <summary>
 TbNamaBuku control.
@@ -305,7 +316,104 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-=======
->>>>>>> 28bc143fe84c59c07cbb4c3241c5faad893d2d77
+<member name="F:UASPBF_TokoBuku.Transaksi._TbNamaPelanggan">
+<summary>
+TbNamaPelanggan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._DDLTipePelanggan">
+<summary>
+DDLTipePelanggan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._TbAlamatPelanggan">
+<summary>
+TbAlamatPelanggan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._gvInventoryBuku">
+<summary>
+gvInventoryBuku control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._hfIdTransaksi">
+<summary>
+hfIdTransaksi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._DDLJenisPembayaran">
+<summary>
+DDLJenisPembayaran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._TbPembayaran">
+<summary>
+TbPembayaran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._gvKeranjang">
+<summary>
+gvKeranjang control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._TbTotalPembayaran">
+<summary>
+TbTotalPembayaran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._TbKembalian">
+<summary>
+TbKembalian control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UASPBF_TokoBuku.Transaksi._btnBayar">
+<summary>
+btnBayar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 </members>
 </doc>
