@@ -46,9 +46,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<<<<<<< HEAD
 <member name="F:UASPBF_TokoBuku.Admin._MainContent">
 <summary>
 MainContent control.
+=======
+<member name="F:UASPBF_TokoBuku.Admin._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+>>>>>>> 28bc143fe84c59c07cbb4c3241c5faad893d2d77
 </summary>
 <remarks>
 Auto-generated field.
@@ -217,6 +223,7 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<<<<<<< HEAD
 <member name="F:UASPBF_TokoBuku.Products._TbNamaBuku">
 <summary>
 TbNamaBuku control.
@@ -298,5 +305,7 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+=======
+>>>>>>> 28bc143fe84c59c07cbb4c3241c5faad893d2d77
 </members>
 </doc>

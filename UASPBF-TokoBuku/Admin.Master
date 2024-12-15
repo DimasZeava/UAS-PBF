@@ -1,6 +1,7 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Admin.master.vb" Inherits="UASPBF_TokoBuku.Admin" %>
 
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
 <head runat="server">
     <title>Admin Dashboard</title>
@@ -23,8 +24,25 @@
 
         <div class="content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+=======
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+>>>>>>> 28bc143fe84c59c07cbb4c3241c5faad893d2d77
             </asp:ContentPlaceHolder>
         </div>
     </form>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 28bc143fe84c59c07cbb4c3241c5faad893d2d77
