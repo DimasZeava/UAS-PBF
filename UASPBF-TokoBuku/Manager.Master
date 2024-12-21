@@ -1,0 +1,28 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Manager.master.vb" Inherits="UASPBF_TokoBuku.Manager" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Manager Dashboard</title>
+    <link href="Sidebar.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="sidebar">
+            <div class="logo">
+                <h2>Manager Panel</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="laporan.aspx">Dashboard</a></li>
+                <li><a href="ReportPenjualan.aspx">Laporan</a></li>
+                <li><a href="Login.aspx">Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
