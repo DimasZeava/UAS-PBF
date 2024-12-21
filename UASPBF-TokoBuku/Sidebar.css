@@ -52,7 +52,7 @@
     padding: 20px;
 }
 
-.product-form, .pelanggan-form, .transaksi-form, .keranjang {
+.product-form, .report-form, .pelanggan-form, .transaksi-form, .keranjang {
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
@@ -74,21 +74,21 @@
         font-size: 16px;
     }
 
-    .product-form button, .pelanggan-form button, .pelanggan-form .dropdown-pelanggan {
+    .product-form button, .report-form, .pelanggan-form button, .pelanggan-form .dropdown-pelanggan {
         margin: 5px 0;
         padding: 10px;
         width: 100%;
         box-sizing: border-box;
     }
 
-    .product-form button, .pelanggan-form button {
+    .product-form button, .report-form, .pelanggan-form button {
         background-color: #007bff;
         color: #fff;
         border: none;
         cursor: pointer;
     }
 
-        .product-form button:hover, .pelanggan-form button:hover {
+        .report-form, .product-form button:hover, .pelanggan-form button:hover {
             background-color: #0056b3;
         }
 

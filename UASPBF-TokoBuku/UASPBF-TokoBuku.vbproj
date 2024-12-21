@@ -148,6 +148,7 @@
     <Content Include="Login.aspx" />
     <Content Include="pengguna.aspx" />
     <Content Include="Products.aspx" />
+    <Content Include="ReportPenjualan.aspx" />
     <Content Include="Sidebar.css" />
     <Content Include="Styles.css" />
     <Content Include="Transaksi.aspx" />
@@ -228,6 +229,13 @@
     </Compile>
     <Compile Include="Products.aspx.vb">
       <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReportPenjualan.aspx.designer.vb">
+      <DependentUpon>ReportPenjualan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPenjualan.aspx.vb">
+      <DependentUpon>ReportPenjualan.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Transaksi.aspx.designer.vb">

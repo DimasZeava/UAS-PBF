@@ -334,6 +334,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:UASPBF_TokoBuku.ReportPenjualan._gvReport">
+<summary>
+gvReport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:UASPBF_TokoBuku.Transaksi._TbNamaPelanggan">
 <summary>
 TbNamaPelanggan control.
